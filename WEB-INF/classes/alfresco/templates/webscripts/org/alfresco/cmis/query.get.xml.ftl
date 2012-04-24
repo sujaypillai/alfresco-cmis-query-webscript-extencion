@@ -1,11 +1,10 @@
 [#ftl]
-[#import "/org/alfresco/cmis/lib/ns.lib.atom.ftl" as nsLib/]
 [#import "/org/alfresco/cmis/lib/links.lib.atom.ftl" as linksLib/]
 
 [#import "/org/alfresco/cmis/lib/xmlentry.lib.atom.ftl" as entryLib/]
 [#import "/org/alfresco/paging.lib.atom.ftl" as pagingLib/]
 [#compress]
-	[#-- <?xml version="1.0" encoding="UTF-8"?> --]
+	<?xml version="1.0" encoding="UTF-8"?>
 	<cmisquery>
 		<info>
 			<query>${statement?xml}</query>
